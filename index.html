@@ -13,7 +13,8 @@
 
     <div class="unosDatuma flex">
         <h3>Unesite vaš datum rođenja:</h3>
-        <input type="date" id="unos"> 
+        <input type="text" id="unos" placeholder="Unesite vas datum rodjenja" 
+               onfocus="this.type='date'" onblur="this.placeholder='Unesite vas datum rodjenja'"  > 
         <input type="button" value="Izračunaj" id="dugme">
 
     </div>
